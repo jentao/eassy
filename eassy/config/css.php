@@ -13,6 +13,11 @@
 <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Permanent+Marker" rel="stylesheet">
 
 <style>
+    textarea {
+        resize: none;
+        overflow: hidden;
+    }
+
     .navbar-brand {
         font-family: 'Permanent Marker', cursive;
         font-size: 30px;

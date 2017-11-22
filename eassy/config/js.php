@@ -18,4 +18,14 @@
         $("#citeModal").modal();
     }
 
+    function intro_type(type, part){
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("GET", "AJAX/type.php?type="+type+"&part="+part+"&id=<?php echo $_SESSION['id'] ?>", true);
+        xhttp.send();
+    }
+
+    function auto_grow(element) {
+        element.style.height = "5px";
+        element.style.height = (element.scrollHeight)+"px";
+    }
 </script>
